@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>ずっと真夜中でいいのに FANS CLUB</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mycss.css">
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        #Bottom
+        {
+            position:fixed;
+            bottom:0px;
+        }
+
+        img
+        {
+            border:5px solid white;
+        }        ul{
+                     list-style: none;
+                 }
+        .peo_box{
+            height: 100px;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.5s;
+            position: relative;
+        }
+        .lishow{
+            visibility: visible;
+            top: 0;
+            opacity: 1;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function(){
+
+            $(document).on( 'scroll', function(){
+                var h = $(window).scrollTop();
+                var maxh = $(document).height();
+                var currh = $(window).height();
+                var num = Math.ceil((h-100)/160);
+                var str = ".peo_box"+num;
+                if(h>100 && h<(maxh-currh-1)){
+                    $(str).addClass('lishow');
+                }else if(h>=(maxh-currh-1)){
+                    $('.peo_box').addClass('lishow');
+                }else{
+                    $('.peo_box').removeClass('lishow');
+                }
+
+
+            });
+
+        });
+
+    </script>
+</head>
+<body background="./img/background.png" style="background-attachment:fixed";>
+<div id="Navigator">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Mid.html">ずっと真夜中でいいのに</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Mid.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">新闻</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Album.html">专辑 <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="jumbotron jumbotron-fluid bg-white text-dark mt-5">
+    <div class="container">
+        <p class="text-center mt-n5"><img src="./img/Album1.jpg" class="rounded-lg shadow"></p>
+        <h1 class="display-4">【配信】「ばかじゃないのに」</h1>
+        <p class="lead">发布于 2021/07/04 共 1 首歌</p>
+        <p class="lead">ずっと真夜中でいいのに 新歌《Stay Foolish》于2021年7月4日（星期日）发行。 </p>
+    </div>
+</div>
+<div class="peo_box2 peo_box">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+    <div class="container">
+        <p class="lead">
+            <b>试听曲： ずっと真夜中でいいのに - ばかじゃないのに</b></br>
+            <audio src="./Music/ずっと真夜中でいいのに。 - ばかじゃないのに.mp3" controls width=200px></audio></br>
+            これは 二十歳じゃない</br>
+            <small>这并非二十岁的故事</small></br>
+            作業着 剥ぎ取っても</br>
+            <small>就算剥下工作服</small></br>
+            まだ お線香の匂い 床に寝そべってた</br>
+            <small>线香的气味仍旧萦绕身旁 我瘫倒在了地板上</small></br>
+            一丁前に回り回る 扇風機に嘆いてたく</br>
+            <small>对着吹着我的电扇叹了一口气</small></br>
+            ふと 会えない人を 思い浮かべてた</br>
+            <small>不经意间 回想起了那个再也见不到的人</small></br>
+        </br></br>
+            急な矛盾が 飼い慣らせない</br>
+            <small>突来的矛盾难以被驯服</small></br>
+            誰のせいって わけじゃない</br>
+            <small>这并非是谁的过错</small></br>
+            
+            色の濃い野菜ばっかり 湯掻いてた</br>
+            <small>烫着净是深色的蔬菜</small></br>
+            鮮やかな仕草に 混ざりたいのに</br>
+            <small>明明想要混入一些高妙的手法</small></br>
+            声があるのに いつもどうして</br>
+            <small>明明可以呼喊 却为何总是</small></br>
+        </br></br>
+            言っとけばいいのに ばかじゃないのに</br>
+            <small>明明说出来就好的 又不笨</small></br>
+            
+            在り来りだろうけど</br>
+            <small>虽然是稀松平常的吧</small></br>
+            僕には 君を思い返す日々で過ごしていける？</br>
+            <small>但我难道要过着每天都会想起你的日子吗？</small></br>
+            もう居ないのに 惹かれ合うのに</br>
+            <small>明明已经不在了 明明已经被你吸引</small></br>
+            一瞬の夏だったよ</br>
+            <small>那一瞬的夏天啊</small></br>
+            ありがとうぐわし</br>
+            <small>谢谢你</small></br>
+            僕に残ってる 引き摺る温もり</br>
+            <small>留存我心的那份难以割舍的温暖</small></br>
+            ずっと まだ目の前に</br>
+            <small>至今仍历历在目</small></br>
+            
+            </br>
+            </br>
+            それは わたしじゃない</br>
+            <small>那并非我的过错</small></br>
+            傷つけない さよなら を</br>
+            <small>就算鞋里进了石子(就算被自己的意识所牵绊)</small></br>
+            靴に石入っても 歩き考えてた</br>
+            -<small>我仍旧边走边想如何不带伤害地道别</small></br>
+            先ばかり気にする君と 遅れをとるわたしと</br>
+            <small>总是注视前方的你 和总是落于人后的我</small></br>
+            ふと ぎこちない日々を 思い浮かべてた</br>
+            <small>不经意间 回想起了一同度过的生涩的日子</small></br>
+            この先どうする ね どうしよう わからない</br>
+            <small>接下来要做什么 该怎么做 我不知道</small></br>
+            君が溜息つく このやりとりに</br>
+            <small>你轻声叹息 这样的对话</small></br>
+            安心できる 自分がいた</br>
+            <small>我便得以安心</small></br>
+            急な矛盾が 飼い慣らせない</br>
+<small>突来的矛盾难以被驯服</small></br>
+何がきっかけとかじゃないけど</br>
+<small>虽然没有以什么为契机</small></br>
+疲れてくことも 慣れていたと思う</br>
+<small>觉得已经习惯了疲倦</small></br>
+それが始まりで 義務になったし</br>
+<small>以此为始 因为成为了义务</small></br>
+ゴールだったし ご飯できたよ</br>
+<small>因为是目标 饭已经做好了哦</small></br>
+ </br></br>
+言っとけばいいのに ばかじゃないのに</br>
+<small>明明说出来就好的 又不笨</small></br>
+在り来りだろうけど</br>
+<small>虽然是稀松平常的吧</small></br>
+僕には 君を思い返す日々で過ごしていける？</br>
+<small>但我难道要过着每天都会想起你的日子吗？</small></br>
+もう居ないのに 惹かれ合うのに</br>
+<small>明明已经不在了 明明已经被你吸引</small></br>
+一瞬の夏だったよ</br>
+<small>那一瞬的夏天啊</small></br>
+これ以上求めた贅沢な 悲しみは</br>
+<small>于此之上的 奢求 悲伤</small></br>
+何処へゆくの</br>
+<small>又将去往何方呢</small></br>
+ </br></br>
+君の普段着 畳む途端に</br>
+<small>正当叠起你的常服时</small></br>
+片付いた理屈の中で 吸って吐いて</br>
+<small>在漂亮的借口之中 吸吐着</small></br>
+だって大丈夫だって</br>
+<small>因为没事的 因为</small></br>
+終わりが近いと 仲良くなれたし</br>
+<small>越是接近终焉 关系越会变得亲密</small></br>
+桃鉄勝って 君が寝落ちして</br>
+<small>赢了桃铁(游戏名)的你 沉沉地睡去了</small></br>
+自分の好き＜君の好き</br>
+<small>我的喜欢已远远不及你的喜欢(比起我的喜欢 你的喜欢)</small></br>
+が何よりも大事で</br>
+<small>比起一切都更加重要</small></br>
+同じ気持ちって</br>
+<small>相同的情感</small></br>
+気づいちゃダメみたいな</br>
+<small>好似注意到了便不行一般</small></br>
+さよなら ばっか だよ</br>
+<small>净是道别啊</small></br>
+ </br></br>
+言っとけばいいのに ばかじゃないのに</br>
+<small>明明说出来就好的 又不笨</small></br>
+在り来りだろうけど</br>
+<small>虽然是稀松平常的吧</small></br>
+僕には 君を思い返す日々で過ごしていける</br>
+<small>但我难道要过着每天都会想起你的日子吗？</small></br>
+もう居ないのに 惹かれ合うのに</br>
+<small>明明已经不在了 明明已经被你吸引</small></br>
+一瞬の夏だったよ</br>
+<small>那一瞬的夏天啊</small></br>
+ありがとう</br>
+<small>谢谢你</small></br>
+僕に残ってる 引き摺る温もり</br>
+<small>留存我心的那份难以割舍的温暖</small></br>
+ずっと まだ目の前に</br>
+<small>至今仍历历在目</small></br>
+        </p>
+    </div>
+</div>
+</div>
+<div id="Bottom">
+    ずっと真夜中でいいのに FANS CLUB
+</div>
+<!--JS控件-->
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

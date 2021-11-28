@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>ずっと真夜中でいいのに FANS CLUB</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mycss.css">
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        #Bottom
+        {
+            position:fixed;
+            bottom:0px;
+        }
+
+        img
+        {
+            border:5px solid white;
+        }        ul{
+                     list-style: none;
+                 }
+        .peo_box{
+            height: 100px;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.5s;
+            position: relative;
+        }
+        .lishow{
+            visibility: visible;
+            top: 0;
+            opacity: 1;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function(){
+
+            $(document).on( 'scroll', function(){
+                var h = $(window).scrollTop();
+                var maxh = $(document).height();
+                var currh = $(window).height();
+                var num = Math.ceil((h-100)/160);
+                var str = ".peo_box"+num;
+                if(h>100 && h<(maxh-currh-1)){
+                    $(str).addClass('lishow');
+                }else if(h>=(maxh-currh-1)){
+                    $('.peo_box').addClass('lishow');
+                }else{
+                    $('.peo_box').removeClass('lishow');
+                }
+
+
+            });
+
+        });
+
+    </script>
+</head>
+<body background="./img/background.png" style="background-attachment:fixed";>
+<div id="Navigator">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Mid.html">ずっと真夜中でいいのに</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Mid.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">新闻</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Album.html">专辑 <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="jumbotron jumbotron-fluid bg-white text-dark mt-5">
+    <div class="container">
+        <p class="text-center mt-n5"><img src="./img/Album5.jpg" class="rounded-lg shadow"></p>
+        <h1 class="display-4">【配信】「暗く黒く」</h1>
+        <p class="lead">发布于 2020/11/03 共 1 首歌</p>
+        <p class="lead">本曲是松竹发行的电影『さんかく窓の外側は夜』的主题曲中的第一首合作曲。这首歌的MV获得了“MTV Video Music Awards Japan 2021 Best Alternative Video Award”</p>
+    </div>
+</div>
+<div class="peo_box2 peo_box">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+    <div class="container">
+        <p class="lead">
+            <b>试听曲：ずっと真夜中でいいのに。 - 暗く黒く</b></br>
+            <audio src="./Music/ずっと真夜中でいいのに。 - 暗く黒く.mp3" controls width=200px></audio></br>
+            触れたくて 震えてく声が</br>
+ <small>渴望去触摸却颤抖着声音</small></br>
+勘違いしては 自分になっていく</br>
+ <small>在错误中却逐渐变成了自己</small></br>
+成りたくて 鳴らせないが息絶えても</br>
+ <small>渴望有作为 即便是要窒息得发不了声音</small></br>
+確かめるまで 終わらせないで</br>
+ <small>但在确认成败之前不要让挣扎早早结束</small></br>
+ただ黙っていた</br>
+ <small>即便是一味沉默</small></br>
+想ってるほど 堪えられた</br>
+ <small>但我比我自己所想的还要可以坚持</small></br>
+冷え切った視界で 今日を燃やしてく</br>
+ <small>在那冰冷的视野里  【今天】逐渐燃烧殆尽</small></br>
+未読にした 美学でよかった</br>
+ <small>那放置不读的消息 也当作一种美学吧</small></br>
+だいじょばないって言えた程</br>
+ <small>虽然只是那小而细微的疼痛</small></br>
+些細な痛み 割り切ったけど</br>
+ <small>却无法直言说这是“没关系”的</small></br>
+君に出会って 赦されてく</br>
+ <small>却在遇见你之后 我释然开朗</small></br>
+全然取れやしない</br>
+ <small>完全无法全部清除</small></br>
+</br></br>
+やつが暗く黒く 塗り潰したとしても</br>
+ <small>而那些漆黑与昏暗的东西 即便是覆盖住也无济于事</small></br>
+決して奪われない</br>
+ <small>但绝对不可能被夺走</small></br>
+インスタントな存在でも</br>
+ <small>即使是一瞬间的存在</small></br>
+見えなくても 此処にある</br>
+ <small>虽然看不见 但也实际于此</small></br>
+守ってたいなんて 一切合切 自我の煩悩で</br>
+ <small>想守护什么的也是我一厢情愿</small></br>
+控えめになって 心をポイ捨てしても</br>
+ <small>无论怎么去控制 即便是连着心也全然不顾</small></br>
+きっと違うけど</br>
+ <small>一定但非一样</small></br>
+</br></br>
+学んでしまった 気づいてしまった</br>
+ <small>我已经逐渐学会 我也缓缓发现</small></br>
+備えられた孤独が こんなに尊いならば</br>
+ <small>倘若与生俱来是孤独 却竟然是如此弥足珍贵的东西</small></br>
+疑う必要はない 信じてる必要もない</br>
+ <small>那就不需要去怀疑 更不需要去相信</small></br>
+連鎖よ続け</br>
+ <small>就让这连锁继续延续吧</small></br>
+在り来たりな儀式も お上手に</br>
+ <small>在习惯的举行那惯例的仪式里</small></br>
+切磋琢磨に踊れ 秒読み</br>
+ <small>为了相互切磋琢磨而忙乱 分秒必争</small></br>
+トライアングルな縁に浸っても</br>
+ <small>在这三角缘分里之中沉浸</small></br>
+何処に居ても場所 疑うけど</br>
+ <small>无论身陷何处都会满心疑虑</small></br>
+鍛えられた細胞 崩してよ</br>
+ <small>让这锻炼过的细胞全部崩溃吧</small></br></br></br>
+この人生が有ること 許してよ</br>
+ <small>容许这样人生存于现界吧</small></br>
+今まで見てきたもの 全部背負って</br>
+ <small>背负着至今为止 那所见过的一切</small></br>
+生きてく怪我させて</br>
+ <small>那存活所须要承担的伤痛</small></br>
+守ってたいなんて 一切合切 自我の煩悩で</br>
+ <small>对守护的期望 全部都是我这样的烦恼</small></br>
+控えめになって 心をポイ捨てしても</br>
+ <small>无论怎么去控制 即便是连着心也全然不顾</small></br>
+きっと違うけど</br>
+ <small>一定但非一样</small></br></br></br>
+学んでしまった 気づいてしまった</br>
+ <small>我已经逐渐学会 我也缓缓发现</small></br>
+備えられた孤独が こんなに尊いならば</br>
+ <small>倘若与生俱来是孤独 却竟然是如此弥足珍贵的东西</small></br>
+疑う必要はない 信じてる必要もない</br>
+ <small>那就不需要去怀疑 更不需要去相信</small></br>
+連鎖よ続け</br>
+ <small>就让这连锁继续延续吧</small></br>
+全然取れやしない</br>
+ <small>完全无法全部清除</small></br>
+やつが暗く黒く 塗り潰したとしても</br>
+ <small>而那些漆黑与昏暗的东西 即便是覆盖住也无济于事</small></br>
+決して奪われない</br>
+ <small>但绝对不可能被夺走</small></br>
+インスタントな世界でも</br>
+ <small>即使是一瞬间的存在</small></br>
+触れなくても 此処にある</br>
+ <small>即使触摸不到 但也实际于此</small></br>
+叶っていたいも 勝っていたいも</br>
+ <small>对现实的渴望 对成功的期盼</small></br>
+時間の翻弄で</br>
+ <small>都在时间里饱受煎熬</small></br>
+目指してた果てに 行き着いた先</br>
+ <small>向着尽头前进 所抵达的地方</small></br>
+満たす孤独も あるのかな</br>
+ <small>是否充满了孤独</small></br>
+止まってしまって わかりすぎたって</br></br></br>
+ <small>在这看透一切的情况下止步于此</small></br>
+選び変える勇気が こんなに尊いならば</br>
+ <small>却发现那敢于去选择改变的勇气 竟然是如此弥足珍贵的东西</small></br>
+疑う必要はない 騙し合う必要もない</br>
+ <small>那便无需去怀疑 更无需去互相欺骗</small></br>
+連鎖よ続け</br>
+ <small>就让这连锁继续延续吧</small></br>
+        </p>
+    </div>
+</div>
+</div>
+<div id="Bottom">
+    ずっと真夜中でいいのに FANS CLUB
+</div>
+<!--JS控件-->
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

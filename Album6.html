@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>ずっと真夜中でいいのに FANS CLUB</title>
+    <link rel="icon" href="./img/logo_fc.png" sizes="16x16">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mycss.css">
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        #Bottom
+        {
+            position:fixed;
+            bottom:0px;
+        }
+
+        img
+        {
+            border:5px solid white;
+        }        ul{
+                     list-style: none;
+                 }
+        .peo_box{
+            height: 100px;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.5s;
+            position: relative;
+        }
+        .lishow{
+            visibility: visible;
+            top: 0;
+            opacity: 1;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function(){
+
+            $(document).on( 'scroll', function(){
+                var h = $(window).scrollTop();
+                var maxh = $(document).height();
+                var currh = $(window).height();
+                var num = Math.ceil((h-100)/160);
+                var str = ".peo_box"+num;
+                if(h>100 && h<(maxh-currh-1)){
+                    $(str).addClass('lishow');
+                }else if(h>=(maxh-currh-1)){
+                    $('.peo_box').addClass('lishow');
+                }else{
+                    $('.peo_box').removeClass('lishow');
+                }
+
+
+            });
+
+        });
+
+    </script>
+</head>
+<body background="./img/background.png" style="background-attachment:fixed";>
+<div id="Navigator">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Mid.html">ずっと真夜中でいいのに</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Mid.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">新闻</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Album.html">专辑 <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="jumbotron jumbotron-fluid bg-white text-dark mt-5">
+    <div class="container">
+        <p class="text-center mt-n5"><img src="./img/Album7.jpg" class="rounded-lg shadow"></p>
+        <h1 class="display-4">【ALBUM】Album「潜潜話」</h1>
+        <p class="lead">发布于 2019/10/29 共 13 首歌</p>
+        <p class="lead">『潜潜話』（ひそひそばなし）は、日本乐团ずっと真夜中でいいのに。的第一个音乐专辑。于2019年10月30日发行。由EMI Records发行。</p>
+    </div>
+</div>
+<div class="peo_box2 peo_box">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+    <div class="container">
+        <p class="lead">
+            <b>试听曲：ずっと真夜中でいいのに。 - ヒューマノイド</b></br>
+            <audio src="./Music/ずっと真夜中でいいのに。 - ヒューマノイド.mp3" controls width=200px></audio></br>
+            初回限定盤：</br>
+            UPCH-20532 / ¥3,300(tax in)</br>
+            
+
+            通常盤：</br>
+            DUED-1243 / ¥1,700(tax in)</br>
+
+            <収録曲></br>
+                <ul class="list-group list-group-flush bg-secondary text-white">
+                    <li class="list-group-item text-dark">01.脳裏上のクラッカー </li>
+                    <li class="list-group-item text-dark">02.勘冴えて悔しいわ</li>
+                    <li class="list-group-item text-dark">03.居眠り遠征隊</li>
+                    <li class="list-group-item text-dark">04.ハゼ馳せる果てるまで</li>
+                    <li class="list-group-item text-dark">05.蹴っ飛ばした毛布</li>
+                    <li class="list-group-item text-dark">06.Dear. Mr「F」</li>
+                    <li class="list-group-item text-dark">07.こんなこと騒動</li>
+                    <li class="list-group-item text-dark">08.眩しいDNAだけ</li>
+                    <li class="list-group-item text-dark">09.ヒューマノイド</li>
+                    <li class="list-group-item text-dark">10.グラスとラムレーズン</li>
+                    <li class="list-group-item text-dark">11.正義</li>
+                    <li class="list-group-item text-dark">12.優しくLAST SMILE</li>
+                    <li class="list-group-item text-dark">13.秒針を噛む</li>
+
+
+                </ul>
+                >全13曲</br></p>
+    </div>
+</div>
+</div>
+<div id="Bottom">
+    ずっと真夜中でいいのに FANS CLUB
+</div>
+<!--JS控件-->
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
